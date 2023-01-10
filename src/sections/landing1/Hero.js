@@ -46,19 +46,17 @@ const Hero = () => {
             >
               <div className="hero-content mt-11 mt-lg-0">
                 <h4 className="pre-title gr-text-12 text-red text-uppercase mb-7">
-                  Let’s shift your business
+
                 </h4>
                 <h1 className="title gr-text-2 mb-8">
-                  Shift your business fast with Shade Pro.
+                  Bienvenidos a la "Convencion Viva 2023"
                 </h1>
                 <p className="gr-text-8 mb-11 pr-md-12">
-                  With lots of unique blocks, you can easily build a page
-                  without coding. Build your next consultancy website within few
-                  minutes.
+
                 </p>
                 <div className="hero-btn">
-                  <Button href="#" className="gr-hover-y">
-                    Get started a project
+                  <Button href="signup" className="gr-hover-y">
+                    Registrate acá
                   </Button>
                 </div>
               </div>

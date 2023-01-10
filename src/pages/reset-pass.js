@@ -8,7 +8,6 @@ import imgLogo from "../assets/image/logo-main-black.png";
 const ResetPass = () => {
   return (
     <>
-      <PageWrapper>
         <div className="sign-in bg-default-2">
           <header className="site-header bg-white">
             <Container fluid>
@@ -30,9 +29,9 @@ const ResetPass = () => {
               <Col md="12">
                 <div className="main-block pt-25">
                   <div className="form-title text-center">
-                    <h2 className="title gr-text-2 mb-9">Reset Password</h2>
                     <p className="gr-text-8 mb-13">
-                      Enter your email to get reset link
+                    <h2 className="title gr-text-2 mb-9">Recuperar Contraseña</h2>
+                      Ingresa tu email para obtener un link de recuperacion
                     </p>
                   </div>
                 </div>
@@ -52,21 +51,21 @@ const ResetPass = () => {
                           className="form-control gr-text-11 border"
                           type="email"
                           id="email"
-                          placeholder="i.e. john@mail.com"
+                          placeholder="ejemplo@gmail.com"
                         />
                       </div>
                       <div className="button-block mt-3 ">
                         <button className="form-btn btn btn-primary w-100">
-                          Send Reset Link
+                          Enviar
                         </button>
                       </div>
                     </form>
                   </div>
                   <div className="form-bottom excerpt text-center">
                     <p className="sign-up-text gr-text-9 gr-text-color">
-                      Rememered the password?
+                      Recordaste tu contraseña?
                       <Link href="/signin">
-                        <a className="text-primary">Sign in now</a>
+                        <a className="text-primary"> Inicia Sesion</a>
                       </Link>
                     </p>
                   </div>
@@ -75,7 +74,6 @@ const ResetPass = () => {
             </Row>
           </Container>
         </div>
-      </PageWrapper>
     </>
   );
 };

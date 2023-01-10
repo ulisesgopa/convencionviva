@@ -15,8 +15,8 @@ const Product = () => {
         headerConfig={{
           align: "center",
           isFluid: true,
-          button: "cta", // cta, account, null
-          buttonText: "Buy now - Starting at $99",
+          button: "null", // cta, account, null
+          buttonText: "",
         }}
         footerConfig={{
           theme: "light",
@@ -24,11 +24,7 @@ const Product = () => {
         }}
       >
         <Hero />
-        <Content1 />
         <Content2 />
-        <Content3 />
-        <Pricing />
-        <CTA />
       </PageWrapper>
     </>
   );

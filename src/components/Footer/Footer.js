@@ -9,10 +9,6 @@ const Footer = () => {
   const gContext = useContext(GlobalContext);
 
   switch (gContext.footer.style) {
-    case "style2":
-      return <Footer2 />;
-    case "style3":
-      return <Footer3 />;
     default:
       return <Footer1 />;
   }

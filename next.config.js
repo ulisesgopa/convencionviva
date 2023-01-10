@@ -7,3 +7,4 @@ module.exports = withFonts(
     // your config for other plugins or the general next.js here...
   })
 );
+

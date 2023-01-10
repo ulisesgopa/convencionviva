@@ -14,18 +14,15 @@ const VideoConference = () => {
         headerConfig={{
           align: "right",
           isFluid: true,
-          button: "account", // cta, account, null
+          button: "null", // cta, account, null
         }}
         footerConfig={{
-          style: "style1", //style1, style2
+          style: "style", //style1, style2
         }}
       >
         <Hero />
         <Rating />
-        <Content1 />
-        <Content2 />
-        <Content3 />
-        <Pricing />
+
       </PageWrapper>
     </>
   );

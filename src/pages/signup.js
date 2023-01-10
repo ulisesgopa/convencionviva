@@ -30,9 +30,9 @@ const SignUp = () => {
               <Col lg="4">
                 <div className="main-block">
                   <div className="form-title text-center">
-                    <h2 className="title gr-text-2 mb-9">Sign Up</h2>
+                    <h2 className="title gr-text-2 mb-9">Registro</h2>
                     <p className="gr-text-8 mb-13">
-                      To get started, you need to sign up here.
+                      Bienvenido, por favor ingresa tus datos.
                     </p>
                   </div>
                   <div className="bg-white border rounded-10 px-8 py-8 shadow-1 mb-11">
@@ -42,13 +42,13 @@ const SignUp = () => {
                           htmlFor="email"
                           className="gr-text-11 font-weight-bold text-blackish-blue"
                         >
-                          First &amp; Last Name
+                          Nombre y Apellido
                         </label>
                         <input
                           className="form-control gr-text-11 border"
                           type="email"
                           id="email"
-                          placeholder="i.e. John Doe"
+                          placeholder="John Doe"
                         />
                       </div>
                       <div className="form-group">
@@ -62,7 +62,7 @@ const SignUp = () => {
                           className="form-control gr-text-11 border"
                           type="email"
                           id="email"
-                          placeholder="i.e. john@mail.com"
+                          placeholder="john@mail.com"
                         />
                       </div>
                       <div className="form-group forget-block">
@@ -70,7 +70,7 @@ const SignUp = () => {
                           htmlFor="password"
                           className="gr-text-11 font-weight-bold text-blackish-blue"
                         >
-                          Password
+                          Contraseña
                         </label>
                         <input
                           id="password"
@@ -84,7 +84,7 @@ const SignUp = () => {
                           htmlFor="password"
                           className="gr-text-11 font-weight-bold text-blackish-blue"
                         >
-                          Confirm Password
+                          Confirma la contraseña
                         </label>
                         <input
                           id="password"
@@ -105,22 +105,22 @@ const SignUp = () => {
                           />
                           <span className="checkbox mt-1 mr-2"></span>
                           <p className="gr-text-11 text-blackish-blue mb-0">
-                            I agree to the Terms &amp; conditions
+                            Acepto los Términos y condiciones
                           </p>
                         </label>
                       </div>
                       <div className="form-group button-block mb-2">
                         <button className="form-btn btn btn-primary gr-hover-y w-100">
-                          Create an account
+                          Crear una cuenta
                         </button>
                       </div>
                     </form>
                   </div>
                   <div className="form-bottom excerpt text-center">
                     <p className="sign-up-text gr-text-9 gr-text-color">
-                      Already have an account?{" "}
+                      Ya tienes una cuenta?{" "}
                       <Link href="/signin">
-                        <a className="text-primary">Sign in now</a>
+                        <a className="text-primary">Inicia sesión</a>
                       </Link>
                     </p>
                   </div>

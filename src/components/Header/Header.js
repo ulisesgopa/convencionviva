@@ -226,7 +226,7 @@ const Header = () => {
 
             {gContext.header.button === "cta" && (
               <div className="header-btn ml-auto ml-lg-0 mr-6 mr-lg-0 d-none d-xs-block">
-                <Link href="/#">
+                <Link href="signin">
                   <a className={`btn btn-${gContext.header.variant}`}>
                     {gContext.header.buttonText}
                   </a>

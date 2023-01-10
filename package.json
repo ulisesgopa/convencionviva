@@ -6,12 +6,13 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "next build",
+    "build": "next build && next export",
     "start": "next start",
     "export": "next build && next export"
   },
   "dependencies": {
     "@n8tb1t/use-scroll-position": "^1.0.43",
+    "ably": "^1.2.5-beta.1",
     "aos": "^3.0.0-beta.6",
     "bootstrap": "^4.5.0",
     "google-map-react": "^1.1.7",

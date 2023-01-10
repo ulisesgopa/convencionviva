@@ -30,9 +30,9 @@ const SignIn = () => {
               <Col md="7" lg="5" xl="4">
                 <div className="main-block py-25">
                   <div className="form-title text-center">
-                    <h2 className="title gr-text-2 mb-9">Login</h2>
+                    <h2 className="title gr-text-2 mb-9">Inicio de Sesión</h2>
                     <p className="gr-text-8 mb-13">
-                      To get started, you need to sign in here.
+                      Bienvenido, por favor ingresa tus datos.
                     </p>
                   </div>
                   <div className="login-form bg-white border rounded-10 px-8 py-8 shadow-1 mb-11">
@@ -48,7 +48,7 @@ const SignIn = () => {
                           className="form-control gr-text-11 border"
                           type="email"
                           id="email"
-                          placeholder="i.e. john@mail.com"
+                          placeholder="john@mail.com"
                         />
                       </div>
                       <div className="form-group forget-block">
@@ -57,10 +57,10 @@ const SignIn = () => {
                             htmlFor="password"
                             className="gr-text-11 font-weight-bold text-blackish-blue"
                           >
-                            Password
+                            Contraseña
                           </label>
                           <Link href="/reset-pass">
-                            <a className="forget-link">Forgot Password?</a>
+                            <a className="forget-link">Olvidaste tu contraseña?</a>
                           </Link>
                         </div>
                         <input
@@ -83,22 +83,22 @@ const SignIn = () => {
                           />
                           <span className="checkbox mt-1 mr-2"></span>
                           <p className="gr-text-11 text-blackish-blue mb-0">
-                            Remember me
+                            Recuerdame
                           </p>
                         </label>
                       </div>
                       <div className="form-group button-block mb-2">
                         <button className="form-btn btn btn-primary gr-hover-y w-100">
-                          Sign In
+                          Inicio de Sesión
                         </button>
                       </div>
                     </form>
                   </div>
                   <div className="form-bottom excerpt text-center">
                     <p className="sign-up-text gr-text-9 gr-text-color">
-                      Don’t have an account?{" "}
+                      No tienes una cuenta?{" "}
                       <Link href="/signup">
-                        <a className="text-primary">Create an account</a>
+                        <a className="text-primary">Crea una cuenta</a>
                       </Link>
                     </p>
                   </div>
