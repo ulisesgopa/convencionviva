@@ -29,7 +29,7 @@ import "../scss/bootstrap.scss";
 import "../scss/main.scss";
 
 const MyApp = ({ Component, pageProps, router }) => {
-  if (router.pathname.match(/sign|reset|coming/)) {
+  if (router.pathname.match(/sign|reset|coming|live-event/)) {
     return (
       <GlobalProvider>
         <CartProvider>
